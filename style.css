@@ -4,6 +4,32 @@
   padding: 0;
 }
 
+header {
+  display: table;
+  width: 100%;
+}
+
+header img {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+header nav {
+  text-align: right;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link, a:visited {
+  color: #36A4E4;
+}
+
+.menu {
+  padding-right: 60px;
+}
+
 h1 {
   font-family: 'Libre Baskerville', serif;
 }
@@ -14,6 +40,7 @@ p {
 
 .container {
   display: flex;
+  justify-content: space-evenly;
 }
 
 nav .container {
@@ -24,7 +51,55 @@ nav .container {
   width: 250px;
 }
 
-
 .imagem-carrossel {
   width: 100%;
+}
+
+.sec-produtos, #sec-servicos {
+  padding: 60px;
+}
+
+#sec-servicos h1{
+  margin-bottom: 20px;
+}
+
+#sec-servicos .p-titulo {
+  text-align: center;
+  font-size: 1.3em;
+}
+
+.img-produto {
+  width: 250px;
+}
+
+footer {
+  background-color: #94040C;
+  color: #fff;
+  padding: 20px;
+}
+
+#redes {
+  width: 33%;
+}
+
+.rede-social {
+  width: 30px;
+}
+
+#atendimento {
+  width: 33%;
+}
+
+#adocao {
+  width: 33%;
+}
+
+.p-titulo {
+  font-family: 'Libre Baskerville', serif;
+}
+
+.dev {
+  text-align: center;
+  background-color: #94040C;
+  color: #fff;
 }
