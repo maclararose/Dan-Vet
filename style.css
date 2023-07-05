@@ -38,6 +38,37 @@ p {
   font-family: 'Lato', sans-serif;
 }
 
+.card__container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.card-image {
+  width: 100%;
+}
+
+.card-miniatures {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-right: 60px;
+  margin-top: -25px;
+}
+
+.card-miniatures__miniature {
+  height: 15px;
+  width: 15px;
+  opacity: 0.5;
+  cursor: pointer;
+  background-color: rgb(175, 163, 163);
+  border-radius: 100%;
+}
+
+.active {
+  opacity: 1;
+  background-color: #717171;
+}
+
 .container {
   display: flex;
   justify-content: space-evenly;
@@ -47,8 +78,9 @@ nav .container {
   justify-content: end;
 }
 
-#logo {
+#logo, #img-logo {
   width: 250px;
+  justify-content: start;
 }
 
 .imagem-carrossel {
