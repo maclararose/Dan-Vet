@@ -3,38 +3,104 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>DanVet</title>
+
+    <link rel="stylesheet" href="./sobre.css" />
+    <link rel="shortcut icon" type="imagex/png" href="./assets/DANVET_-_LOGO-1-1-removebg-preview.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Libre+Baskerville&display=swap" rel="stylesheet"/>
   </head>
   <body>
     <header>
-      <img alt="logo do projeto"/>
       <nav>
-        <a href="#">Inicio</a>
-        <a href="#">Produtos</a>
-        <a href="#">Adote</a>
-        <a href="#">Sobre</a>
+        <div id="logo">
+          <img id="img-logo" src="./assets/DANVET_-_LOGO-1-1-removebg-preview.png" alt="logo do projeto"/>
+        </div>
+        <a class="menu" href="index.html">Inicio</a>
+        <a class="menu" href="produtos.html">Produtos</a>
+        <a class="menu" href="adote.html">Adote</a>
+        <a class="menu" href="#">Sobre</a>
       </nav>
     </header>
 
-    <footer>
-      <div>
-        <p>Redes Sociais:</p>
-        <img alt="icon de rede social"/>
-        <img alt="icon de rede social"/>
+    <main>
+      <h1>Quem é Dan Vet?</h1>
+      <div class="container">
+        <div class="card-image__vet">
+          <img />
+        </div>
+        <div class="card-text__vet">
+          <p>
+            Bem-vindo ao nosso site! 
+          </p>
+          <p>
+            Aqui você pode conhecer um pouco mais sobre o veterinário responsável pelo cuidado e bem-estar dos seus animais de estimação. 
+          </p>
+          <p>
+            Meu nome é Johnathan Dantas de Almeida, e tenho o prazer de atuar como médico veterinário desde minha formação em 2019, 
+          </p>
+          <p>pelo Centro Universitário do Centro Oeste (UNIDESC).</p>
+          <p>
+            Com 27 anos de idade e uma paixão inabalável pelos animais, dedico-me à clínica médica e cirúrgica de pequenos animais. 
+          </p>
+          <p>
+            Acredito firmemente que cada animal merece atenção personalizada, cuidado compassivo e tratamentos de qualidade. 
+          </p>
+          <p>
+            Com isso em mente, meu objetivo é oferecer um atendimento especializado, garantindo o máximo de conforto e saúde para os seus adoráveis companheiros peludos.
+          </p>
+        </div>
       </div>
-      <div>
-        <p>Nosso atendimento:</p>
+
+      <h1>Nossa Clínica e PetShop:</h1>
+      <div class="container">
+        <div class="card-text__vet">
+          <p>
+            Seja para uma consulta de rotina, um cuidado preventivo, um diagnóstico preciso ou um tratamento avançado, estou 
+          </p>
+          <p>
+            comprometido em oferecer cuidados excepcionais aos seus animais de estimação. 
+          </p>
+          <p>
+            Sinta-se à vontade para explorar nosso site e entrar em contato conosco para marcar uma consulta ou para qualquer dúvida que possa surgir.
+          </p>
+          <p>
+            Agradecemos a confiança depositada em nossos serviços e estou ansioso para cuidar dos seus adoráveis companheiros.
+          </p>
+        </div>
+        <div class="card-image__pet">
+          <img />
+        </div>
+      </div>
+    </main>
+
+    <footer class="container">
+      <div id="redes">
+        <p class="p-titulo">Redes Sociais:</p>
+        <a href="https://instagram.com/danvet19?igshid=NjIwNzIyMDk2Mg=="><img class="rede-social" src="./assets/instagram.png" alt="icon do instagram"/></a>
+        <a href="https://api.whatsapp.com/message/QK2V4SOSI37GG1"><img class="rede-social" src="./assets/whatsapp.png" alt="icon do whatsapp"/></a>
+
+        <div class="texto">
+          <p class="p-titulo">Endereço:</p>
+          <p>R. 8, 3493 - Jardim Ceu Azul</p>
+          <p>Valparaíso de Goiás - GO</p>
+          <p>CEP: 72871-009</p>
+        </div>
+      </div>
+      <div id="atendimento">
+        <p class="p-titulo">Nosso atendimento:</p>
         <p>Atendemos de segunda à sexta-feira, das 08:00 da manhã até 19:00</p>
         <p>E aos sábados das 08:00 até 12:00</p>
         <p>Consultas, banho e tosa e compras podem ser feitas via whatsapp ou ligação!</p>
       </div>
-      <div>
-        <p>Conheça a nossa página de adoção!</p>
+      <div id="adocao">
+        <p class="p-titulo">Conheça a nossa <a href="./adote.html">página de adoção</a>!</p>
         <p>Tenha um amiguinho fiel e amoroso, adotar é de graça e um ato de amor!</p>
         <p>CNPJ: 35.701.471/0001/01</p>
       </div>
-
-      <p>Desenvolvido por: <a href="https://github.com/maclararose">Maria Clara B.</a></p>
     </footer>
+    <div class="dev"><span><p>Desenvolvido por: <a href="https://github.com/maclararose" target="_blank">Maria Clara B.</a></p></span></div>
   </body>
 </html>

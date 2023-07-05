@@ -28,10 +28,22 @@ a:link, a:visited {
 
 h1 {
   font-family: 'Libre Baskerville', serif;
+  margin-bottom: 30px;
 }
 
 p {
   font-family: 'Lato', sans-serif;
+}
+
+main {
+  padding: 60px;
+  margin-bottom: 80px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .menu {
@@ -43,65 +55,23 @@ p {
   justify-content: start;
 }
 
-.card__container {
-  width: 100%;
-  margin: 0 auto;
-}
-
-.card-image {
-  width: 100%;
-}
-
-.card-miniatures {
-  display: flex;
-  align-items: center;
-  justify-content: end;
-  margin-right: 60px;
-  margin-top: -25px;
-}
-
-.card-miniatures__miniature {
-  height: 15px;
-  width: 15px;
-  opacity: 0.5;
-  cursor: pointer;
-  background-color: rgb(175, 163, 163);
+.card-image__vet {
+  width: 350px;
+  height: 350px;
+  background-color: #ddd;
   border-radius: 100%;
 }
 
-.active {
-  opacity: 1;
-  background-color: #717171;
+.card-text__vet {
+  width: 550px;
+  margin-left: 80px;
 }
 
-.container {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-nav .container {
-  justify-content: end;
-}
-
-.imagem-carrossel {
-  width: 100%;
-}
-
-.sec-produtos, #sec-servicos {
-  padding: 60px;
-}
-
-#sec-servicos h1{
-  margin-bottom: 20px;
-}
-
-#sec-servicos .p-titulo {
-  text-align: center;
-  font-size: 1.3em;
-}
-
-.img-produto {
-  width: 250px;
+.card-image__pet {
+  width: 650px;
+  height: 350px;
+  background-color: #ddd;
+  margin-left: 30px;
 }
 
 footer {
