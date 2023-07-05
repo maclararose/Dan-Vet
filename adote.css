@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Libre+Baskerville&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: table;
+  width: 100%;
+}
+
+header img {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+header nav {
+  text-align: right;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link, a:visited {
+  color: #36A4E4;
+}
+
+.menu {
+  padding-right: 60px;
+}
+
+#logo, #img-logo {
+  width: 250px;
+  justify-content: start;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+}
+
+main {
+  margin: 100px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.container-img {
+  width: 350px;
+  height: 350px;
+  border-radius: 100%;
+  box-shadow: 20px 10px 10px #36A4E4;
+}
+
+#akira {
+  box-shadow: 20px 10px 10px #FEE266;
+}
+
+footer {
+  background-color: #94040C;
+  color: #fff;
+  padding: 20px;
+}
+
+#redes {
+  width: 33%;
+}
+
+.rede-social {
+  width: 30px;
+}
+
+#atendimento {
+  width: 33%;
+}
+
+#adocao {
+  width: 33%;
+}
+
+.p-titulo {
+  font-family: 'Libre Baskerville', serif;
+}
+
+.dev {
+  text-align: center;
+  background-color: #94040C;
+  color: #fff;
+}

@@ -3,38 +3,94 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>DanVet</title>
+
+    <link rel="stylesheet" href="./adote.css"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Libre+Baskerville&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
-      <img alt="logo do projeto"/>
       <nav>
-        <a href="#">Inicio</a>
-        <a href="#">Produtos</a>
-        <a href="#">Adote</a>
-        <a href="#">Sobre</a>
+        <div id="logo">
+          <img id="img-logo" src="./assets/DANVET_-_LOGO-1-1-removebg-preview.png" alt="logo do projeto"/>
+        </div>
+        <a class="menu" href="#">Inicio</a>
+        <a class="menu" href="produtos.html">Produtos</a>
+        <a class="menu" href="adote.html">Adote</a>
+        <a class="menu" href="sobre.html">Sobre</a>
       </nav>
     </header>
 
-    <footer>
-      <div>
-        <p>Redes Sociais:</p>
-        <img alt="icon de rede social"/>
-        <img alt="icon de rede social"/>
+    <div id="banner">
+      <img id="banner-image" src="./assets/Adocao.png" />
+    </div>
+
+    <main>
+      <div class="container">
+        <img class="container-img" src="./assets/bichinhos/fumaça.png"/>
+        <div class="container-text">
+          <p>
+            Fumaça é um cachorrinho macho sem raça definida, cheio de amor e energia!
+          </p>
+          <p>
+            Tem 3 meses de idade e é o último da sua ninhada.
+            Aprende rápido e é super sociavel!
+          </p>
+          <p>
+            Se você procura um companheiro para te acompanhar em tudo, ele é perfeito para você!
+          </p>
+          <p>
+            Em idade adulta ele ai ter porte médio, cerca de 10kg.
+          </p>
+        </div>
       </div>
-      <div>
-        <p>Nosso atendimento:</p>
+
+      <div class="container">
+        <div class="container-text">
+          <p>
+            Akira é uma gatinha sem raça definida. Tem 2 aninhos e é super calma e amorosa. 
+          </p>
+          <p>
+            Por sua pelagem ser muito comum, nunca teve a chance de ter um lar. 
+            Gatos pretos, escaminhas e frajolinhas são os últimos a serem adotados.
+          </p>
+          <p>
+            Ela é ideal para primeiro pet! Dê uma chance ao amor.
+            Fiv e Felv negativo, castrada, vermifugada e vacinada.
+          </p>
+        </div>
+        <img id="akira" class="container-img" src="./assets/bichinhos/akira.png"/>
+      </div>
+    </main>
+
+    <footer class="container">
+      <div id="redes">
+        <p class="p-titulo">Redes Sociais:</p>
+        <a href="https://instagram.com/danvet19?igshid=NjIwNzIyMDk2Mg=="><img class="rede-social" src="./assets/instagram.png" alt="icon do instagram"/></a>
+        <a href="https://api.whatsapp.com/message/QK2V4SOSI37GG1"><img class="rede-social" src="./assets/whatsapp.png" alt="icon do whatsapp"/></a>
+
+        <div class="texto">
+          <p class="p-titulo">Endereço:</p>
+          <p>R. 8, 3493 - Jardim Ceu Azul</p>
+          <p>Valparaíso de Goiás - GO</p>
+          <p>CEP: 72871-009</p>
+        </div>
+      </div>
+      <div id="atendimento">
+        <p class="p-titulo">Nosso atendimento:</p>
         <p>Atendemos de segunda à sexta-feira, das 08:00 da manhã até 19:00</p>
         <p>E aos sábados das 08:00 até 12:00</p>
         <p>Consultas, banho e tosa e compras podem ser feitas via whatsapp ou ligação!</p>
       </div>
-      <div>
-        <p>Conheça a nossa página de adoção!</p>
+      <div id="adocao">
+        <p class="p-titulo">Conheça a nossa <a href="./adote.html">página de adoção</a>!</p>
         <p>Tenha um amiguinho fiel e amoroso, adotar é de graça e um ato de amor!</p>
         <p>CNPJ: 35.701.471/0001/01</p>
       </div>
-
-      <p>Desenvolvido por: <a href="https://github.com/maclararose">Maria Clara B.</a></p>
     </footer>
+    <div class="dev"><span><p>Desenvolvido por: <a href="https://github.com/maclararose" target="_blank">Maria Clara B.</a></p></span></div>
   </body>
 </html>

@@ -38,6 +38,11 @@ p {
   font-family: 'Lato', sans-serif;
 }
 
+#logo, #img-logo {
+  width: 250px;
+  justify-content: start;
+}
+
 .card__container {
   width: 100%;
   margin: 0 auto;
@@ -76,11 +81,6 @@ p {
 
 nav .container {
   justify-content: end;
-}
-
-#logo, #img-logo {
-  width: 250px;
-  justify-content: start;
 }
 
 .imagem-carrossel {
