@@ -4,11 +4,6 @@
   padding: 0;
 }
 
-header {
-  display: table;
-  width: 100%;
-}
-
 header img {
   display: table-cell;
   vertical-align: middle;
@@ -26,8 +21,9 @@ a:link, a:visited {
   color: #36A4E4;
 }
 
-h1 {
+h1, h2 {
   font-family: 'Libre Baskerville', serif;
+  margin-bottom: 20px;
 }
 
 p {
@@ -45,18 +41,18 @@ p {
 
 .card__container {
   width: 100%;
-  margin: 0 auto;
 }
 
 .card-image {
   width: 100%;
+  display: flex;
 }
 
 .card-miniatures {
-  display: flex;
+  display: block;
   align-items: center;
   justify-content: end;
-  margin-right: 60px;
+  margin-left: 60px;
   margin-top: -25px;
 }
 
@@ -67,6 +63,7 @@ p {
   cursor: pointer;
   background-color: rgb(175, 163, 163);
   border-radius: 100%;
+  position: relative;
 }
 
 .active {
@@ -76,17 +73,33 @@ p {
 
 .container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
-nav .container {
-  justify-content: end;
+nav {
+  display: flex;
+  justify-content: space-between;
+  line-height: 60px;
+}
+
+.menu {
+  text-align: right;
+  word-spacing: 8px;
+}
+
+.menu-link:hover {
+  background-color: #36A4E4;
+  color: #fff;
 }
 
 .imagem-carrossel {
   width: 100%;
 }
 
+.sec-servicos__container, .sec-produtos__container {
+  display: flex;
+  justify-content: space-evenly;
+}
 .sec-produtos, #sec-servicos {
   padding: 60px;
 }
@@ -102,6 +115,14 @@ nav .container {
 
 .img-produto {
   width: 250px;
+}
+
+.categoria {
+  width: 12%;
+}
+
+.img-categoria {
+  width: 85%;
 }
 
 footer {

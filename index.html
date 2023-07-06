@@ -20,10 +20,12 @@
         <div id="logo">
           <img id="img-logo" src="./assets/DANVET_-_LOGO-1-1-removebg-preview.png" alt="logo do projeto"/>
         </div>
-        <a class="menu" href="#">Inicio</a>
-        <a class="menu" href="produtos.html">Produtos</a>
-        <a class="menu" href="adote.html">Adote</a>
-        <a class="menu" href="sobre.html">Sobre</a>
+        <div class="menu">
+          <a class="menu-link" href="#">Inicio</a>
+          <a class="menu-link" href="produtos.html">Produtos</a>
+          <a class="menu-link" href="adote.html">Adote</a>
+          <a class="menu-link" href="sobre.html">Sobre</a>
+        </div>
       </nav>
     </header>
 
@@ -39,7 +41,7 @@
 
     <section id="sec-servicos">
       <h1>Serviços</h1>
-      <div class="container">
+      <div class="sec-servicos__container">
         <div class="card">
           <img src="./assets/consulta.png" alt="galeria de imagens"/>
           <p class="p-titulo">Consultas</p>
@@ -62,28 +64,73 @@
     <main>
       <section class="sec-produtos">
         <h2>Produtos em destaque</h2>
-        <div class="container">
-          <img class="img-produto" src="./assets/produtos/casinhapet.png" alt="galeria de imagens"/>
-          <img class="img-produto" src="./assets/produtos/areiabob.png"/>
-          <img class="img-produto" src="./assets/produtos/casa-gato-prime-passos-de-bicho-101-3cba72d92fb8bf978216764953297234-1024-1024.png"/>
-          <img class="img-produto" src="./assets/produtos/casacama.jpg"/>
-          <img class="img-produto" src="./assets/produtos/chalesco-50-un.jpg"/>
-          <img class="img-produto" src="./assets/produtos/coleira_antipulgas_e_carrapatos_para_caes.png"/>
-          <img class="img-produto" src="./assets/produtos/kitcordabola2.png"/>
+        <div class="sec-produtos__container">
+          <div>
+            <img class="img-produto" src="./assets/produtos/casinhapet.png" alt="galeria de imagens"/>
+            <p>Casinha Pet</p>
+          </div>
+          <div>
+            <img class="img-produto" src="./assets/produtos/areiabob.png"/>
+            <p>Areia Higiênica - Bob Esconde</p>
+          </div>
+          <div>
+            <img class="img-produto" src="./assets/produtos/casa-gato-prime-passos-de-bicho-101-3cba72d92fb8bf978216764953297234-1024-1024.png"/>
+            <p>Toca e casa para gatos</p>
+          </div>
+          <div>
+            <img class="img-produto" src="./assets/produtos/casacama.jpg"/>
+            <p>Casa cama - Inverno</p>
+          </div>
+          <div>
+            <img class="img-produto" src="./assets/produtos/chalesco-50-un.jpg"/>
+            <p>Tapete Higiênico - Chalesco</p>
+          </div>
+          <div>
+            <img class="img-produto" src="./assets/produtos/coleira_antipulgas_e_carrapatos_para_caes.png"/>
+            <p>Coleira antipulgas - Cachorro</p>
+          </div>
+          <div>
+            <img class="img-produto" src="./assets/produtos/kitcordabola2.png"/>
+            <p>Kit de brinquedos - Cachorro</p>
+          </div>
         </div>
       </section>
 
       <section class="sec-produtos">
         <h2>Produtos por categoria</h2>
-        <div class="container">
-          <img src="./assets/medicacao.png" alt="galeria de imagens"/>
-          <img src="./assets/brinquedos.png" alt="galeria de imagens"/>
-          <img src="./assets/racao.png" alt="galeria de imagens"/>
-          <img src="./assets/areia.png" alt="galeria de imagens"/>
-          <img src="./assets/tapete.png" alt="galeria de imagens"/>
-          <img src="./assets/casinha.png" alt="galeria de imagens"/>
-          <img src="./assets/petiscos.png"alt="galeria de imagens"/>
-          <img src="./assets/antipulgas.png" alt="galeria de imagens"/>
+        <div class="sec-produtos__container">
+          <div class="categoria">
+            <img class="img-categoria" src="./assets/medicacao.png" alt="galeria de imagens"/>
+            <p class="p-titulo">Medicamentos</p>
+          </div>
+          <div class="categoria">
+            <img class="img-categoria" src="./assets/brinquedos.png" alt="galeria de imagens"/>
+            <p class="p-titulo">Brinquedos</p>
+          </div>
+          <div class="categoria">
+            <img class="img-categoria" src="./assets/racao.png" alt="galeria de imagens"/>
+            <p class="p-titulo">Ração</p>
+          </div>
+          <div class="categoria">
+            <img class="img-categoria" src="./assets/areia.png" alt="galeria de imagens"/>
+            <p class="p-titulo">Areia Higiênica</p>
+          </div>
+          <div class="categoria">
+            <img class="img-categoria" src="./assets/tapete.png" alt="galeria de imagens"/>
+            <p class="p-titulo">Tapete Higiênico</p>
+          </div>
+          <div class="categoria">
+            <img class="img-categoria" src="./assets/casinha.png" alt="galeria de imagens"/>
+            <p class="p-titulo">Casinhas Pet</p>
+          </div>
+          <div class="categoria">
+            <img class="img-categoria" src="./assets/petiscos.png"alt="galeria de imagens"/>
+            <p class="p-titulo">Petiscos</p>
+          </div>
+          <div class="categoria">
+            <img class="img-categoria" src="./assets/antipulgas.png" alt="galeria de imagens"/>
+            <p class="p-titulo">Antipulgas</p>
+          </div>
         </div>
       </section>
     </main>
