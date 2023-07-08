@@ -4,39 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DanVet</title>
-
+    <link rel="stylesheet" href="./produtos.css" />
     <link rel="shortcut icon" type="imagex/png" href="./assets/DANVET_-_LOGO-1-1-removebg-preview.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Libre+Baskerville&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
-      <img alt="logo do projeto"/>
       <nav>
-        <a href="index.html">Inicio</a>
-        <a href="#">Produtos</a>
-        <a href="adote.html">Adote</a>
-        <a href="sobre.html">Sobre</a>
+        <div id="logo">
+          <a href="index.html"><img id="img-logo" src="./assets/DANVET_-_LOGO-1-1-removebg-preview.png" alt="logo do projeto"/></a>
+        </div>
+        <div class="menu">
+          <a class="menu-link" href="index.html">Inicio</a>
+          <a class="menu-link" href="#">Produtos</a>
+          <a class="menu-link" href="adote.html">Adote</a>
+          <a class="menu-link" href="sobre.html">Sobre</a>
+        </div>
       </nav>
     </header>
     
-    <footer>
-      <div>
-        <p>Redes Sociais:</p>
-        <img alt="icon de rede social"/>
-        <img alt="icon de rede social"/>
+    <footer class="container">
+      <div id="redes">
+        <p class="p-titulo">Redes Sociais:</p>
+        <a href="https://instagram.com/danvet19?igshid=NjIwNzIyMDk2Mg=="><img class="rede-social" src="./assets/instagram.png" alt="icon do instagram"/></a>
+        <a href="https://api.whatsapp.com/message/QK2V4SOSI37GG1"><img class="rede-social" src="./assets/whatsapp.png" alt="icon do whatsapp"/></a>
+
+        <div class="texto">
+          <p class="p-titulo">Endereço:</p>
+          <p>R. 8, 3493 - Jardim Ceu Azul</p>
+          <p>Valparaíso de Goiás - GO</p>
+          <p>CEP: 72871-009</p>
+        </div>
       </div>
-      <div>
-        <p>Nosso atendimento:</p>
+      <div id="atendimento">
+        <p class="p-titulo">Nosso atendimento:</p>
         <p>Atendemos de segunda à sexta-feira, das 08:00 da manhã até 19:00</p>
         <p>E aos sábados das 08:00 até 12:00</p>
         <p>Consultas, banho e tosa e compras podem ser feitas via whatsapp ou ligação!</p>
       </div>
-      <div>
-        <p>Conheça a nossa página de adoção!</p>
+      <div id="adocao">
+        <p class="p-titulo">Conheça a nossa <a href="./adote.html">página de adoção</a>!</p>
         <p>Tenha um amiguinho fiel e amoroso, adotar é de graça e um ato de amor!</p>
         <p>CNPJ: 35.701.471/0001/01</p>
       </div>
-
-      <p>Desenvolvido por: <a href="https://github.com/maclararose">Maria Clara B.</a></p>
     </footer>
+    <div class="dev"><span><p>Desenvolvido por: <a class="p-titulo" href="https://github.com/maclararose" target="_blank">Maria Clara B.</a></p></span></div>
   </body>
 </html>

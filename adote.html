@@ -16,12 +16,14 @@
     <header>
       <nav>
         <div id="logo">
-          <img id="img-logo" src="./assets/DANVET_-_LOGO-1-1-removebg-preview.png" alt="logo do projeto"/>
+          <a href="index.html"><img id="img-logo" src="./assets/DANVET_-_LOGO-1-1-removebg-preview.png" alt="logo do projeto"/></a>
         </div>
-        <a class="menu" href="index.html">Inicio</a>
-        <a class="menu" href="produtos.html">Produtos</a>
-        <a class="menu" href="#">Adote</a>
-        <a class="menu" href="sobre.html">Sobre</a>
+        <div class="menu">
+          <a class="menu-link" href="index.html">Inicio</a>
+          <a class="menu-link" href="produtos.html">Produtos</a>
+          <a class="menu-link" href="#">Adote</a>
+          <a class="menu-link" href="sobre.html">Sobre</a>
+        </div>
       </nav>
     </header>
 
@@ -31,7 +33,10 @@
 
     <main>
       <div class="container">
-        <img class="container-img" src="./assets/bichinhos/fumaça.png"/>
+        <div class="container-id">
+          <img class="container-img" src="./assets/bichinhos/fumaça.png"/>
+          <p class="p-titulo">Fumaça</p>
+        </div>
         <div class="container-text">
           <p>
             Fumaça é um cachorrinho macho sem raça definida, cheio de amor e energia!
@@ -63,7 +68,10 @@
             Fiv e Felv negativo, castrada, vermifugada e vacinada.
           </p>
         </div>
-        <img id="akira" class="container-img" src="./assets/bichinhos/akira.png"/>
+        <div class="container-id">
+          <img id="akira" class="container-img" src="./assets/bichinhos/akira.png"/>
+          <p class="p-titulo">Akira</p>
+        </div>
       </div>
     </main>
 
@@ -92,6 +100,6 @@
         <p>CNPJ: 35.701.471/0001/01</p>
       </div>
     </footer>
-    <div class="dev"><span><p>Desenvolvido por: <a href="https://github.com/maclararose" target="_blank">Maria Clara B.</a></p></span></div>
+    <div class="dev"><span><p>Desenvolvido por: <a class="p-titulo" href="https://github.com/maclararose" target="_blank">Maria Clara B.</a></p></span></div>
   </body>
 </html>

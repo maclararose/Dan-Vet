@@ -9,8 +9,13 @@ header img {
   vertical-align: middle;
 }
 
-header nav {
-  text-align: right;
+.menu-link, .menu-link:link, .menu-link:visited {
+  color: #94040C;
+}
+
+.menu-link:hover {
+  background-color: #94040C;
+  color: #fff;
 }
 
 a {
@@ -30,8 +35,16 @@ p {
   font-family: 'Lato', sans-serif;
 }
 
+nav {
+  display: flex;
+  justify-content: space-between;
+  line-height: 60px;
+}
+
 .menu {
   padding-right: 60px;
+  text-align: right;  
+  word-spacing: 8px;
 }
 
 #logo, #img-logo {
@@ -74,22 +87,6 @@ p {
 .container {
   display: flex;
   justify-content: center;
-}
-
-nav {
-  display: flex;
-  justify-content: space-between;
-  line-height: 60px;
-}
-
-.menu {
-  text-align: right;
-  word-spacing: 8px;
-}
-
-.menu-link:hover {
-  background-color: #36A4E4;
-  color: #fff;
 }
 
 .imagem-carrossel {
