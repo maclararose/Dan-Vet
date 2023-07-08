@@ -57,6 +57,41 @@ p {
   justify-content: center;
 }
 
+form {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-color: #F45159;
+  width: 200px;
+  padding: 20px;
+  border-radius: 20px;
+  color: #fff;
+  margin-left: -10px ;
+}
+
+label {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+}
+
+.icon-select, .icon-filter {
+  width: 25px;
+}
+
+input, fieldset {
+  margin: 10px auto;
+  border: none;
+  padding: 6px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+input {
+  margin:0 12px 0 0;
+  vertical-align: middle;
+  position: relative;
+  top: -1px;
+}
+
 footer {
   background-color: #94040C;
   color: #fff;
