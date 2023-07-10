@@ -25,104 +25,135 @@
         </div>
       </nav>
     </header>
-
-    <input type="text" placeholder="Pesquise o produto que deseja..."/>
-
-    <main>
-    </main>
     
-    <div>
-      <form method="get" action="">
-        <img class="icon-filter" src="./assets/icons-rede/filtro.png" alt="icon de filtro"/>
-        <label>Filtros de busca:</label>
-
-        <fieldset>
-          <img class="icon-select" src="./assets/icons-rede/select.png" alt="icon de filtro"/>
-          <label>Categorias:</label>
-          <div>
-            <input type="checkbox" value="racao"/><label>Rações</label>
-          </div>
-          <div>
-            <input type="checkbox" value="brinquedos"/><label>Brinquedos</label>
-          </div>
-          <div>
-            <input type="checkbox" value="suplementos"/><label>Suplementos</label>
-          </div>
-        </fieldset>
-
-        <fieldset>
-          <img class="icon-select" src="./assets/icons-rede/select.png" alt="icon de filtro"/>
-          <label>Faixa de preços:</label>
-          
-          <div>
-            <input type="checkbox" value="" />
-            <label>R$5,00 - R$25,00</label>
-          </div>
-          <div>
-            <input type="checkbox" value="" />
-            <label>R$30,00 - R$55,00</label>
-          </div>
-          <div>
-            <input type="checkbox" value="" />
-            <label>R$60,00 - R$85,00</label>
-          </div>
-          <div>
-            <input type="checkbox" value="" />
-            <label>R$90,00 - R$115,00</label>
-          </div>
-          <div>
-            <input type="checkbox" value="" />
-            <label>R$120,00 - R$250,00</label>
-          </div>
-        </fieldset>
-
-        <fieldset>
-          <img class="icon-select" src="./assets/icons-rede/select.png" alt="icon de filtro"/>
-          <label>Marcas:</label>
-          <div>
-            <input type="checkbox" value="" />
-            <label>Special Dog</label>
-          </div>
-          <div>
-            <input type="checkbox" value="" />
-            <label>Pedigree</label>
-          </div>
-          <div>
-            <input type="checkbox" value="" />
-            <label>Friskies</label>
-          </div>
-          <div>
-            <input type="checkbox" value="" />
-            <label>Viva Verde</label>
-          </div>
-          <div>
-            <input type="checkbox" value="" />
-            <label>Ultralife</label>
-          </div>
-        </fieldset>
-
-        <fieldset>
-          <img class="icon-select" src="./assets/icons-rede/select.png" alt="icon de filtro"/>
-          <label>Linhas:</label>
-          <div>
-            <input type="checkbox" value="" />
-            <label>Castrados</label>
-          </div>
-          <div>
-            <input type="checkbox" value="" />
-            <label>Filhotes</label>
-          </div>
-          <div>
-            <input type="checkbox" value="" />
-            <label>Premium</label>
-          </div>
-          <div>
-            <input type="checkbox" value="" />
-            <label>Suplementares</label>
-          </div>
-        </fieldset>
-      </form>
+    <div class="container" id="search-products">
+      <input id="search" type="text" placeholder="Pesquise o produto que deseja..."/>
+      <button id="button-search" type="submit"><img class="icon-search" src="./assets/icons-rede/search-engine-optimization.png" /></button>
     </div>
+    
+    <main>
+      <div class="container">
+        <div class="card">
+          <img class="img-product" src="/assets/produtos/antipulgas_fiprolex_gatos.png" />
+          <p>Firoplex - Antipulgas</p>
+        </div>
+        <div class="card">
+          <img class="img-product" src="/assets/produtos/areiabob.png"/>
+          <p>Areia Higiênica - Bob Esconde</p>
+        </div>
+        <div class="card">
+          <img class="img-product" src="./assets/produtos/arranhador.jpg"/>
+          <p>Arranhador de andar</p>
+        </div>
+      </div>
+      <div class="container">
+        <div class="card">
+          <img class="img-product" src="/assets/produtos/antipulgas_fiprolex_gatos.png" />
+          <p>Firoplex - Antipulgas</p>
+        </div>
+        <div class="card">
+          <img class="img-product" src="/assets/produtos/areiabob.png"/>
+          <p>Areia Higiênica - Bob Esconde</p>
+        </div>
+        <div class="card">
+          <img class="img-product" src="./assets/produtos/arranhador.jpg"/>
+          <p>Arranhador de andar</p>
+        </div>
+      </div>
+      <div class="form">
+        <form method="get" action="">
+          <img class="icon-filter" src="./assets/icons-rede/filtro.png" alt="icon de filtro"/>
+          <label>Filtros de busca:</label>
+  
+          <fieldset>
+            <img class="icon-select" src="./assets/icons-rede/select.png" alt="icon de filtro"/>
+            <label>Categorias:</label>
+            <div>
+              <input type="checkbox" value="racao"/><label>Rações</label>
+            </div>
+            <div>
+              <input type="checkbox" value="brinquedos"/><label>Brinquedos</label>
+            </div>
+            <div>
+              <input type="checkbox" value="suplementos"/><label>Suplementos</label>
+            </div>
+          </fieldset>
+  
+          <fieldset>
+            <img class="icon-select" src="./assets/icons-rede/select.png" alt="icon de filtro"/>
+            <label>Faixa de preços:</label>
+            
+            <div>
+              <input type="checkbox" value="" />
+              <label>R$5,00 - R$25,00</label>
+            </div>
+            <div>
+              <input type="checkbox" value="" />
+              <label>R$30,00 - R$55,00</label>
+            </div>
+            <div>
+              <input type="checkbox" value="" />
+              <label>R$60,00 - R$85,00</label>
+            </div>
+            <div>
+              <input type="checkbox" value="" />
+              <label>R$90,00 - R$115,00</label>
+            </div>
+            <div>
+              <input type="checkbox" value="" />
+              <label>R$120,00 - R$250,00</label>
+            </div>
+          </fieldset>
+  
+          <fieldset>
+            <img class="icon-select" src="./assets/icons-rede/select.png" alt="icon de filtro"/>
+            <label>Marcas:</label>
+            <div>
+              <input type="checkbox" value="" />
+              <label>Special Dog</label>
+            </div>
+            <div>
+              <input type="checkbox" value="" />
+              <label>Pedigree</label>
+            </div>
+            <div>
+              <input type="checkbox" value="" />
+              <label>Friskies</label>
+            </div>
+            <div>
+              <input type="checkbox" value="" />
+              <label>Viva Verde</label>
+            </div>
+            <div>
+              <input type="checkbox" value="" />
+              <label>Ultralife</label>
+            </div>
+          </fieldset>
+  
+          <fieldset>
+            <img class="icon-select" src="./assets/icons-rede/select.png" alt="icon de filtro"/>
+            <label>Linhas:</label>
+            <div>
+              <input type="checkbox" value="" />
+              <label>Castrados</label>
+            </div>
+            <div>
+              <input type="checkbox" value="" />
+              <label>Filhotes</label>
+            </div>
+            <div>
+              <input type="checkbox" value="" />
+              <label>Premium</label>
+            </div>
+            <div>
+              <input type="checkbox" value="" />
+              <label>Suplementares</label>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+
+    </main>
 
     <footer class="container">
       <div id="redes">

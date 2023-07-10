@@ -77,10 +77,12 @@ main, section {
 }
 
 .card-image__pet {
+  margin-left: 30px;
+}
+
+iframe {
   width: 650px;
   height: 350px;
-  background-color: #ddd;
-  margin-left: 30px;
 }
 
 footer {
