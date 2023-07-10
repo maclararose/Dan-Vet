@@ -2,6 +2,7 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 header img {
@@ -42,7 +43,7 @@ nav {
 }
 
 .menu {
-  padding-right: 60px;
+  padding-right: 40px;
   text-align: right;  
   word-spacing: 8px;
 }
@@ -61,12 +62,17 @@ nav {
   display: flex;
 }
 
+.card-image__preview {
+  width: 100%;
+}
+
 .card-miniatures {
   display: block;
   align-items: center;
   justify-content: end;
   margin-left: 60px;
   margin-top: -25px;
+  width: 100%;
 }
 
 .card-miniatures__miniature {
@@ -97,12 +103,9 @@ nav {
   display: flex;
   justify-content: space-evenly;
 }
+
 .sec-produtos, #sec-servicos {
   padding: 60px;
-}
-
-#sec-servicos h1{
-  margin-bottom: 20px;
 }
 
 #sec-servicos .p-titulo {
@@ -111,11 +114,21 @@ nav {
 }
 
 .img-produto {
-  width: 250px;
+  width: 200px;
+}
+
+.product-text {
+  text-align: center;
+}
+
+.sec-produtos__card:hover {
+  transition: 1s;
+  box-shadow: 10px 10px 10px #ddd;
 }
 
 .categoria {
   width: 12%;
+  text-align: center;
 }
 
 .img-categoria {
@@ -126,6 +139,7 @@ footer {
   background-color: #94040C;
   color: #fff;
   padding: 20px;
+  width: 100%;
 }
 
 #redes {
