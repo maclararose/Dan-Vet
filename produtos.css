@@ -99,6 +99,8 @@ p {
 
 .card {
   text-align: center;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .card:hover {
@@ -115,6 +117,7 @@ p {
   border-radius: 20px;
   color: #fff;
   margin-left: -10px ;
+  float: left;
 }
 
 label {
