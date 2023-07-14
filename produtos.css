@@ -177,24 +177,86 @@ footer {
 }
 
 @media (max-width:600px) {
-  #logo, #img-logo {
-    width: 170px;
-    justify-content: start;
+  nav {
+    display: flex;
+    justify-content: space-between;
+    line-height: 30px;
+  }
+  
+  .menu {
+    padding-right: 30px;
+    text-align: right;  
+    word-spacing: 8px;
   }
 
+  .menu-link {
+    font-size: 0.8em;
+  }
+
+  #search {
+    width: 200px;
+    height: 20px;
+    border: none;
+    border-radius: 80px;
+    align-self: center;
+    padding: 8px;
+  }
+  
+  .icon-search {
+    width: 20px;
+    height: 20px;
+    align-self: center;
+  }
+  
+  #button-search {
+    width: 40px;
+    height: 40px;
+    align-self: center;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  #search-products {
+    background-color: #F45159;
+    opacity: 0.7;
+    height: 70px;
+  }
+  
   p {
     font-size: 0.8em;
   }
 
+  #logo, #img-logo {
+    width: 150px;
+    justify-content: center;
+  }
+
   label {
-    font-size: 0.9em;
+    font-size: 0.8em;
   }
   
   .img-product {
-    width: 150px;
+    width: 140px;
   }
 
   .form {
-    width: 180px;
+    width: 170px;
+  }
+
+  .icon-select, .icon-filter {
+    width: 18px;
+  }
+
+  footer p {
+    font-size: 0.5em;
+  }
+
+  .rede-social {
+    width: 18px;
+  }
+
+  .dev {
+    font-size: 0.6em;
   }
 }
