@@ -55,6 +55,7 @@ p {
 .container {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 #search {
@@ -173,4 +174,27 @@ footer {
   text-align: center;
   background-color: #94040C;
   color: #fff;
+}
+
+@media (max-width:600px) {
+  #logo, #img-logo {
+    width: 170px;
+    justify-content: start;
+  }
+
+  p {
+    font-size: 0.8em;
+  }
+
+  label {
+    font-size: 0.9em;
+  }
+  
+  .img-product {
+    width: 150px;
+  }
+
+  .form {
+    width: 180px;
+  }
 }

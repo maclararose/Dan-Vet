@@ -122,3 +122,41 @@ footer {
   background-color: #94040C;
   color: #fff;
 }
+
+@media (max-width: 600px) {
+  #logo, #img-logo {
+    width: 170px;
+    justify-content: start;
+  }
+
+  p {
+    font-size: 1em;
+  }
+
+  main {
+    margin: 50px;
+  }
+
+  .container main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container-img {
+    width: 180px;
+    height: 180px;
+  }
+
+  .container-id {
+    padding: 20px;
+    margin-right: 10px;
+  }
+
+  footer .container {
+    display: flex;
+    justify-content: center;
+  }
+  footer p {
+    font-size: 0.8em;
+  }
+}
