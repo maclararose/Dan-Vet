@@ -91,6 +91,10 @@ main {
   font-size: 1.3em;
 }
 
+.container-text {
+  width: 500px;
+}
+
 footer {
   background-color: #94040C;
   color: #fff;
