@@ -45,4 +45,4 @@ And Done! You can edit the files.
 - __Virginia Prettz__ - Images and prototype - [[GitHub](https://github.com/VirginiaPrettz)]
 
 # License :page_facing_up:
-This project is under license [[MIT](https://github.com/maclararose/Dan-Vet/blob/main/LICENSE.md)] :round_pushpin:.
+This project is under license [[MIT](https://github.com/maclararose/Dan-Vet/blob/main/LICENSE)] :round_pushpin:.
