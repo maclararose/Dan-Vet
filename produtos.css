@@ -176,6 +176,10 @@ footer {
   color: #fff;
 }
 
+a.link-footer {
+  color: #fff;
+}
+
 @media (max-width:600px) {
   nav {
     display: flex;
