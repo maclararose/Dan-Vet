@@ -89,7 +89,7 @@ p {
 }
 
 .img-product {
-  width: 250px;
+  width: 230px;
   padding: 10px;
   margin-left: 10px;
 }
@@ -102,7 +102,11 @@ p {
   text-align: center;
   padding-bottom: 10px;
   margin-bottom: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
   border-radius: 20px;
+  width: 250px;
+  background-color: #fff;
 }
 
 .card:hover {
@@ -142,6 +146,10 @@ input {
   vertical-align: middle;
   position: relative;
   top: -1px;
+}
+
+main {
+  background-color: #ebebeb8e;
 }
 
 footer {
