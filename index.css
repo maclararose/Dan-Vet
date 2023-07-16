@@ -132,6 +132,11 @@ nav {
 
 .product-text {
   text-align: center;
+  flex-wrap: wrap;
+}
+
+.sec-produtos__card {
+  border-radius: 20px;
 }
 
 .sec-produtos__card:hover {
