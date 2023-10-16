@@ -5,7 +5,8 @@ Link for using: https://maclararose.github.io/Dan-Vet
 
 # UML Diagram
 
-
+![Diagrama de caso de uso Macro](./UML%20Use%20Case%20Diagram/Macro.png)
+![Diagrama de caso de uso Especifíco](./UML%20Use%20Case%20Diagram/Especifíco.png)
 
 # Starting :rocket:
 These instructions will allow you to get a copy of the project running on your local machine for development and testing purposes.
