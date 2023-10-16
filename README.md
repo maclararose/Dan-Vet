@@ -5,7 +5,10 @@ Link for using: https://maclararose.github.io/Dan-Vet
 
 # UML Diagram
 
+## Macro use case
 ![Diagrama de caso de uso Macro](./UML%20Use%20Case%20Diagram/Macro.png)
+
+## Specific use case
 ![Diagrama de caso de uso Especifíco](./UML%20Use%20Case%20Diagram/Especifíco.png)
 
 # Starting :rocket:
