@@ -5,6 +5,9 @@ Link for using: https://maclararose.github.io/Dan-Vet
 
 # UML Diagram
 
+## Class Diagram
+![Diagrama de classe](./UML%20Use%20Case%20Diagram/Classe%20UML.png)
+
 ## Macro use case
 ![Diagrama de caso de uso Macro](./UML%20Use%20Case%20Diagram/Macro.png)
 
